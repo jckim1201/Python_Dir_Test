@@ -1,1 +1,28 @@
 # 프로그램을 설치할 때 필요한 dependency library 목록
+# 웹 프레임워크
+Flask==2.1.1
+
+# 데이터베이스
+SQLAlchemy==1.4.31
+psycopg2-binary==2.9.3  # PostgreSQL용
+
+# 요청 처리
+requests==2.27.1
+
+# 데이터 분석
+pandas==1.4.1
+numpy==1.22.2
+
+# 스크래핑
+beautifulsoup4==4.10.0
+lxml==4.8.0
+
+# 테스트 도구
+pytest==7.0.1
+pytest-cov==3.0.0
+
+# 로깅 및 디버깅
+loguru==0.5.3
+
+# 기타
+click==8.1.3
